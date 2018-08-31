@@ -1,0 +1,215 @@
+*{
+	margin: 0;
+}
+
+/* ------------------------- */
+/* REUSABLE COMPONENTS */
+/* ------------------------- */
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section{
+	padding: 40px 0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: white;
+}
+
+h2{
+	font-size: 190%;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px !important;
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: rgba(94,183,238,1);
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+/* ---------------------- */
+/*    SECTION 0: HERO     */
+/* ---------------------- */
+
+.section-hero {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(img/backk.jpg);
+	height: 80vh;
+	width: 100vw;
+	padding-bottom: 0;
+	background-attachment: fixed;
+}
+
+.section-hero .nav-panel{
+	.card {
+  
+}
+
+
+
+
+}
+
+.section-hero .nav-panel img{
+	border-radius: 60px;
+	float: left;
+	height: 120px;
+	width: auto;
+}
+
+.section-hero .nav-panel .nav-list-container{
+	float: right;
+}
+
+.section-hero .nav-panel .nav-list-container ul{
+	list-style: none;
+	margin: 0;
+	text-decoration: none;
+}
+
+.section-hero .nav-panel .nav-list-container ul li{
+	padding: 12px;
+	display: inline-block;
+	margin-top: 25px;
+	list-style: none;
+	color: inherit;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.section-hero .nav-panel .nav-list-container ul li a{
+	border-bottom: 2.5px solid transparent;
+	padding-bottom: 3px;
+	transition: border-bottom 0.3s;
+}
+
+.section-hero .nav-panel .nav-list-container ul li a:link,
+.section-hero .nav-panel .nav-list-container ul li a:visited{
+	text-decoration: none;
+	color: inherit;
+}
+
+.section-hero .nav-panel .nav-list-container ul li a:hover{
+	border-bottom: 1.5px solid white;
+}
+
+/**/
+
+.section-hero .hero-text-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.section-hero .hero-text-box h1{
+	font-size: 150%;
+}
+
+.section-hero .hero-text-box h2{
+	margin-top: 7px;
+	font-size: 370%;
+}
+.section-hero .hero-text-box h3{
+	margin-top: 7px;
+	font-size: 80%;
+}
+
+
+
+/* ---------------------- */
+/*   SECTION 1: ABOUT     */
+/* ---------------------- */
+
+.section-about{
+	letter-spacing: 1px;
+   background-color: DarkSlateGrey;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+
+}
+
+.section-about h3{
+	text-align: center;
+	font-weight: 500;
+	font-size: 160%;
+	text-transform: uppercase;
+}
+
+.section-about p{
+	margin-top: 20px;
+	font-weight: 300;
+	font-size: 105%;
+}
+
+/* ---------------------- */
+/*    SECTION 2: MENU     */
+/* ---------------------- */
+
+.section-menu{
+	background: rgba(192,72,72,1);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(img/food.jpg);
+	transition: background 2.0s;
+	background-attachment: fixed;
+}
+
+.section-menu .menu-image-container{
+	margin: 0 auto;
+	margin-top: 20px;
+
+}
+
+.section-menu .menu-image-container .menu-image-row{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.section-menu .menu-image-container .menu-image-row img{
+	height: 380px;
+	width: auto;
+	margin: 10px;
+	opacity: 0.7;
+	transform: scale(1.015);
+	transition: transform 0.4s, opacity 0.4s;
+} 
+
+.section-menu .menu-image-container .menu-image-row img:hover{
+	opacity: 1.0;
+	transform: scale(1.2);
+} 
+
+/* ---------------------- */
+/*    SECTION 3: FOOTER   */
+/* ---------------------- */
+
+footer{
+	color: black;
+	padding: 20px 0;
+    background: linear-gradient(to right, rgba(159, 255, 20,1) 0%, rgba(20, 115, 255,1) 100%);
+	font-size: 100%;
+	font-weight: 500;
+}
+
+footer .footer-box{
+	text-align: center;
+
+}
+
+
+}
